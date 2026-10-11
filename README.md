@@ -12,7 +12,7 @@ A interface apresenta os principais assuntos dos exercícios, como variáveis, o
 
 - **HTML5:** estruturação da página.
 - **Bootstrap 5.3.8:** estilização e construção do layout responsivo por meio de CDN.
-- **JavaScript:** prática dos fundamentos da linguagem e execução de instruções no Console do navegador.
+- **JavaScript ES6:** prática dos fundamentos da linguagem e execução de instruções no console do navegador.
 
 ## Estrutura do projeto
 
@@ -37,13 +37,13 @@ Os principais componentes utilizados foram:
 - **Alert:** exibe uma mensagem de incentivo aos estudos.
 - **Footer:** apresenta a identificação do projeto.
 
-O layout utiliza `container`, `row` e `col` para organizar os elementos de forma responsiva, adaptando-se a diferentes tamanhos de tela.
+O layout utiliza as classes `container`, `row` e `col` para organizar os elementos de forma responsiva, adaptando-se a diferentes tamanhos de tela.
 
 ## Exercícios de JavaScript
 
 ### Questão 1 — Conexão com o JavaScript
 
-O arquivo `script.js` foi conectado ao `index.html` utilizando a tag `script`. As instruções são executadas no navegador, e os resultados podem ser visualizados no Console.
+O arquivo `script.js` foi conectado ao `index.html` utilizando a tag `script`. As instruções são executadas no navegador, e os resultados podem ser visualizados no console.
 
 ### Questão 2 — Instruções e comentários
 
@@ -77,7 +77,7 @@ Foram utilizados os seguintes tipos de dados:
 - `boolean`: representação de valores verdadeiros ou falsos.
 - `null`: representação intencional de ausência de valor.
 
-Os valores são exibidos no Console utilizando `console.log()`.
+Os valores são exibidos no console utilizando `console.log()`.
 
 ### Questão 6 — Operadores
 
@@ -105,10 +105,35 @@ Os exercícios desenvolvidos utilizam variáveis, operações matemáticas, temp
 
 ## Como executar o projeto
 
-1. Clone o repositório ou baixe os arquivos do projeto.
-2. Abra o arquivo `index.html` em um navegador.
-3. Abra as ferramentas de desenvolvedor do navegador.
-4. Acesse a aba **Console** para visualizar as mensagens e os resultados dos exercícios.
+### Pré-requisitos
+
+- Git instalado para clonar o repositório.
+- Um navegador web atualizado.
+- Conexão com a internet para carregar o Bootstrap via CDN.
+
+### 1. Clonar o repositório
+
+Abra o terminal e execute o comando:
+
+```bash
+git clone https://github.com/w11k3/painel-estudos-javascript.git
+```
+
+### 2. Acessar a pasta do projeto
+
+```bash
+cd painel-estudos-javascript
+```
+
+### 3. Executar o projeto
+
+Abra o arquivo `index.html` diretamente no navegador ou utilize a extensão **Live Server** no Visual Studio Code para executar a página em um servidor local.
+
+Não é necessário instalar dependências com npm ou configurar um backend para executar este projeto.
+
+### 4. Visualizar os exercícios JavaScript
+
+Abra as ferramentas de desenvolvedor do navegador, acesse a aba **Console** e confira as mensagens e os resultados dos exercícios desenvolvidos em JavaScript.
 
 O Bootstrap é carregado por CDN, portanto, é necessário ter conexão com a internet para carregar seus arquivos.
 
